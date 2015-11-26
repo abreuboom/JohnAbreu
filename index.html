@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JOHN ABREU</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+        
+        <div>
+            <img id="me" onclick="changeImage()" src="images/meTrans.png">
+
+<script>
+function changeImage() {
+    var image = document.getElementById('me');
+    if (image.src.match("images/meTrans.png")) {
+        image.src = "images/meBoxy.png";
+    } else {
+        image.src = "images/meTrans.png";
+    }
+}
+</script>
+        </div>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>John Abreu</h1>
+				<p>Designing to Inspire<br/>
+                    I am a
+				<a href="html5up-lens/index.html">Coder</a>, 
+                <a href="html5up-lens/index.html">Designer</a>, 
+                <a href="html5up-lens/index.html">Photographer</a></p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+                <input type="message" name="email" id="message" placeholder="Message" />
+				<input type="submit" value="Send" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+                    <li><a href="https://www.facebook.com/johnabreu1020" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://twitter.com/abreuboom" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.youtube.com/user/abreuboom" target="_blank" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+					<li><a href="https://www.instagram.com/abreuboom/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/abreuboom" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/abreujohn" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:johnmabreu@gmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
