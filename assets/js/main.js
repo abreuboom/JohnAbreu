@@ -36,7 +36,7 @@
 
 			// Settings.
 				var settings = {
-
+                    
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/me1.png': 'center',
